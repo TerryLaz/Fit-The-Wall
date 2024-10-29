@@ -1,0 +1,15 @@
+<<<<<<< Updated upstream
+AAA
+1000
+   
+650
+AAA
+640
+=======
+   
+920
+ACC
+860
+AAA
+680
+>>>>>>> Stashed changes

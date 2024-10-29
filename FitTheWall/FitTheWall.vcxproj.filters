@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="StandardPixelShader.hlsl" />
+    <FxCompile Include="StandardVertexShader.hlsl" />
+    <FxCompile Include="GUIVertexShader.hlsl" />
+    <FxCompile Include="GUIPixelShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGui.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Highscore.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInput.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMouse.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Pose.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="HighscoreScreen.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideScreen.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Spotlight.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Audiens.cpp">
+      <Filter>source.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGui.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Highscore.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMouse.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Pose.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="HighscoreScreen.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideScreen.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Audiens.h">
+      <Filter>header.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header.h">
+      <UniqueIdentifier>{023fa224-5e91-4309-87e5-96234af691b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source.cpp">
+      <UniqueIdentifier>{04cf85e8-f19b-471c-bfa1-7ea2d41a1fec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fonts\myFile.spritefont" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
